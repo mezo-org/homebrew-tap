@@ -1,0 +1,21 @@
+{
+  "version": "0.0.0",
+  "description": "Mezo protocol CLI",
+  "homepage": "https://github.com/mezo-org/mezo-cli",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/mezo-org/mezo-cli/releases/download/v0.0.0/mezo-cli-0.0.0-windows-x64.zip",
+      "hash": "PLACEHOLDER"
+    }
+  },
+  "bin": "mezo-cli.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/mezo-org/mezo-cli/releases/download/v$version/mezo-cli-$version-windows-x64.zip"
+      }
+    }
+  }
+}

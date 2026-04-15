@@ -1,0 +1,12 @@
+Package: mezo-cli
+Version: 0.1.0-alpha.1
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Mezo <engineering@mezo.org>
+Description: Mezo protocol CLI
+Homepage: https://github.com/mezo-org/mezo-cli
+Filename: pool/mezo-cli_0.1.0-alpha.1_amd64.deb
+Size: 28613444
+MD5sum: cd7b647bcbb12cb411ea4c5b63b1370f
+SHA256: 7334b86a4a4e038203767352ec4ead6db28d8dff520fa5b7ff5f74d67bd9bf25

@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: mezo-org
+Label: mezo-cli
+Suite: stable
+Codename: stable
+Architectures: amd64 arm64
+Components: main
+Date: Wed, 15 Apr 2026 22:03:36 GMT
+Description: mezo-cli 0.1.0-alpha.1
+MD5Sum:
+ 4285832e0593789950eef4a5fcfd06bc      390 main/binary-amd64/Packages
+ 9f3c959ca4d3844928f7f200ab370aaa      299 main/binary-amd64/Packages.gz
+ 09f9b451cf0575be6320af98f3c8c714      390 main/binary-arm64/Packages
+ a74c4eb1e193b2f12186a4495072ade4      299 main/binary-arm64/Packages.gz
+SHA256:
+ 21fedb69c89445ba6909b20baa5944ae6d96bf499250c7e029e258d4d7125bcb      390 main/binary-amd64/Packages
+ 4cf423b95fa04c65467f8a4769975ef11ee155b68ee7385cdac7248fc3130956      299 main/binary-amd64/Packages.gz
+ b26669c9648251a31622feff340f18c32dba61ebc4cc77e459766a26ed864806      390 main/binary-arm64/Packages
+ 8f1c64134bab24e412c7fcfc2b0d1574163359b5114d1edb8a9ad48406689ed9      299 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSr04waItZsj/fTRCPCNp3LSENapAUCaeALOAAKCRDCNp3LSENa
+pPbSAP9OQCPahbxgSC+5IJ0RCHbRaGpAMVqfjx48xOcbHQMWAgEAzMbcB8f0bG8r
+E+I44xE07GnK5cQsgEDHLFy+ME1EGw0=
+=u55K
+-----END PGP SIGNATURE-----

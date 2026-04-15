@@ -4,28 +4,28 @@
 class MezoCli < Formula
   desc "Mezo protocol CLI"
   homepage "https://github.com/mezo-org/mezo-cli"
-  version "0.0.0"
+  version "0.1.0-alpha.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v#{version}/mezo-cli-#{version}-macos-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-macos-arm64.tar.gz"
+      sha256 "64304d4d135d4e3e0ff1ccd4025ab818fe4a1781f0db7e220a2bdfa11450be6a"
     end
     on_intel do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v#{version}/mezo-cli-#{version}-macos-x64.tar.gz"
-      sha256 "PLACEHOLDER"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-macos-x64.tar.gz"
+      sha256 "430c00dd1e0e5ac01ede43e5b15f4cf2e6764210aa10238121a0969b8a1ca137"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v#{version}/mezo-cli-#{version}-linux-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-linux-arm64.tar.gz"
+      sha256 "d0e153264f534d3615839cd87218cc8de203148f4bda53ea680d13a23fab0ebb"
     end
     on_intel do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v#{version}/mezo-cli-#{version}-linux-x64.tar.gz"
-      sha256 "PLACEHOLDER"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-linux-x64.tar.gz"
+      sha256 "32623a4e3775e5421c702af3be9090b850ce333f7fcbfa92f39ac066cc3c57d2"
     end
   end
 

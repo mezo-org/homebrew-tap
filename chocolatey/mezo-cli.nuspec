@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mezo-cli</id>
-    <version>0.0.0</version>
+    <version>0.1.0-alpha.1</version>
     <title>mezo-cli</title>
     <authors>Mezo</authors>
     <projectUrl>https://github.com/mezo-org/mezo-cli</projectUrl>

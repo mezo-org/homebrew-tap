@@ -3,9 +3,9 @@
 
 $ErrorActionPreference = 'Stop'
 
-$version = '0.0.0'
-$url = "https://github.com/mezo-org/mezo-cli/releases/download/v${version}/mezo-cli-${version}-windows-x64.zip"
-$checksum = 'PLACEHOLDER'
+$version = '0.1.0-alpha.1'
+$url = "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-windows-x64.zip"
+$checksum = 'c0ea1a5e57559bd4196277cb3d0f0ab140c2d7f5328a68d0ff96227821482135'
 
 $packageArgs = @{
   packageName    = 'mezo-cli'

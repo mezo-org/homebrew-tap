@@ -7,6 +7,6 @@ Maintainer: Mezo <engineering@mezo.org>
 Description: Mezo protocol CLI
 Homepage: https://github.com/mezo-org/mezo-cli
 Filename: pool/mezo-cli_0.1.0-alpha.2_amd64.deb
-Size: 28613472
-MD5sum: 771711234656c2a487a187c192580d64
-SHA256: e5e4e5a8de8e42c45ee650e240286c6fb608fd0b656041f8fc2e33e2086b6943
+Size: 28613546
+MD5sum: 829b8e377f557d78bcad70aebed588d8
+SHA256: c24e7d523167fec6f73f6c248556807323ab7eb0b422a27072e570a3c83818a1

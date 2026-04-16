@@ -5,8 +5,8 @@
     <version>0.1.0-alpha.2</version>
     <title>mezo-cli</title>
     <authors>Mezo</authors>
-    <projectUrl>https://github.com/mezo-org/mezo-cli</projectUrl>
-    <licenseUrl>https://github.com/mezo-org/mezo-cli/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mezo-org/homebrew-tap</projectUrl>
+    <licenseUrl>https://github.com/mezo-org/homebrew-tap/blob/main/LICENSE</licenseUrl>
     <description>Mezo protocol CLI</description>
     <tags>mezo cli blockchain</tags>
   </metadata>

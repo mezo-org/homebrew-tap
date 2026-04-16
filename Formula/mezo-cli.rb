@@ -3,29 +3,29 @@
 
 class MezoCli < Formula
   desc "Mezo protocol CLI"
-  homepage "https://github.com/mezo-org/mezo-cli"
+  homepage "https://github.com/mezo-org/homebrew-tap"
   version "0.1.0-alpha.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-macos-arm64.tar.gz"
-      sha256 "ebcee1a7a7e0e8124c85a04bea69b87b17803b280bba5d7b80b52f5425e399c6"
+      url "https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-macos-arm64.tar.gz"
+      sha256 "4990f403be3fe1aaf800119f4d127cd1fbae4371f1487da7e4fb6e466a07dddf"
     end
     on_intel do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-macos-x64.tar.gz"
-      sha256 "c73d3e195f6264c12c6b88956d199b3b0a3fd3cadd41cbf4889ac77a146bf299"
+      url "https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-macos-x64.tar.gz"
+      sha256 "f426889308012c4d16e0fc379748b9748290737d92d519281a17ac349fbccbee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-arm64.tar.gz"
-      sha256 "b1c22d46143f3e985e871f9caf359e8cab988a70fd016b3a2f618dfbec526492"
+      url "https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-arm64.tar.gz"
+      sha256 "7ddc99155fd1203740d06dedfa64cb17bbb9a797cdb1b85c44964fea6991f34a"
     end
     on_intel do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-x64.tar.gz"
-      sha256 "9d44138f26e8d8b0acb8d229ede7b28a7867068d9aa1211afccc7b7d8ebeea90"
+      url "https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-x64.tar.gz"
+      sha256 "cf960ab60db646c7c734b2df534bdabc92935844b7a2a93604bc700a68d3f087"
     end
   end
 

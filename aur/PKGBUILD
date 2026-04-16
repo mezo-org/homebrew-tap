@@ -6,15 +6,15 @@ pkgver=0.1.0-alpha.2
 pkgrel=1
 pkgdesc='Mezo protocol CLI'
 arch=('x86_64' 'aarch64')
-url='https://github.com/mezo-org/mezo-cli'
+url='https://github.com/mezo-org/homebrew-tap'
 license=('MIT')
 provides=('mezo-cli')
 conflicts=('mezo-cli')
 
-source_x86_64=("https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-x64.tar.gz")
-source_aarch64=("https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-arm64.tar.gz")
-sha256sums_x86_64=('9d44138f26e8d8b0acb8d229ede7b28a7867068d9aa1211afccc7b7d8ebeea90')
-sha256sums_aarch64=('b1c22d46143f3e985e871f9caf359e8cab988a70fd016b3a2f618dfbec526492')
+source_x86_64=("https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-x64.tar.gz")
+source_aarch64=("https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-arm64.tar.gz")
+sha256sums_x86_64=('cf960ab60db646c7c734b2df534bdabc92935844b7a2a93604bc700a68d3f087')
+sha256sums_aarch64=('7ddc99155fd1203740d06dedfa64cb17bbb9a797cdb1b85c44964fea6991f34a')
 
 package() {
   install -Dm755 mezo "${pkgdir}/usr/bin/mezo"

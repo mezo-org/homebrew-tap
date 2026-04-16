@@ -43,4 +43,4 @@ sudo apt update && sudo apt install mezo-cli
 
 ### Direct download
 
-Download binaries from [GitHub Releases](https://github.com/mezo-org/mezo-cli/releases).
+Download binaries from [GitHub Releases](https://github.com/mezo-org/homebrew-tap/releases).

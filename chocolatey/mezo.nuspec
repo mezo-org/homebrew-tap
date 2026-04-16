@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mezo</id>
+    <version>0.1.0-alpha.3</version>
+    <title>mezo</title>
+    <authors>Mezo</authors>
+    <projectUrl>https://github.com/mezo-org/homebrew-tap</projectUrl>
+    <licenseUrl>https://github.com/mezo-org/homebrew-tap/blob/main/LICENSE</licenseUrl>
+    <description>Mezo protocol CLI</description>
+    <tags>mezo cli blockchain</tags>
+  </metadata>
+</package>

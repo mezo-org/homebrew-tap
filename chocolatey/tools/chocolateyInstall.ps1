@@ -3,12 +3,12 @@
 
 $ErrorActionPreference = 'Stop'
 
-$version = '0.1.0-alpha.2'
-$url = "https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-windows-x64.zip"
-$checksum = 'f93fdb675256e3ed51768cb4366488d830848c735a321e5dd85b776cce01b2ca'
+$version = '0.1.0-alpha.3'
+$url = "https://github.com/mezo-org/homebrew-tap/releases/download/v0.1.0-alpha.3/mezo-cli-0.1.0-alpha.3-windows-x64.zip"
+$checksum = '673425d6793918499c1ee35048d488fd3853691b2e30115deb0e6e855712541b'
 
 $packageArgs = @{
-  packageName    = 'mezo-cli'
+  packageName    = 'mezo'
   unzipLocation  = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
   url64bit       = $url
   checksum64     = $checksum

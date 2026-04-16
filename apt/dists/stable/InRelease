@@ -2,27 +2,27 @@
 Hash: SHA512
 
 Origin: mezo-org
-Label: mezo-cli
+Label: mezo
 Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Thu, 16 Apr 2026 03:44:33 GMT
-Description: mezo-cli 0.1.0-alpha.2
+Date: Thu, 16 Apr 2026 03:53:28 GMT
+Description: mezo 0.1.0-alpha.3
 MD5Sum:
- ee5eac9e4b18b20bdb1fb3bec39cfd04      390 main/binary-amd64/Packages
- 1658eb2a29f83e9ec6cd6aafde78fc58      300 main/binary-amd64/Packages.gz
- 35f64d25f990363e2e2ba355af27335f      390 main/binary-arm64/Packages
- 10e89942f02f6816c275fabab5103ccd      300 main/binary-arm64/Packages.gz
+ 22c16eb5314f22ce58003072745b726d      382 main/binary-amd64/Packages
+ 83df8303e2a1ef5050835d0baca9c1d2      300 main/binary-amd64/Packages.gz
+ 8440b666b1090206a59eca766f0faa7d      382 main/binary-arm64/Packages
+ 1e913f58a6d790b1bff8174f17469584      300 main/binary-arm64/Packages.gz
 SHA256:
- f101b1b2208c5d3980982cebe6cabdc2cec140cbca6b9f18e353ebc5ddcacd75      390 main/binary-amd64/Packages
- 3d6cc5a273e66812f1d94b5a48d4f792779bee6775a084edf8271731b94a52c5      300 main/binary-amd64/Packages.gz
- 3e7a82af40fa36d3d4c242e61b62a7a44d4b2885536e5467f98045e683145d99      390 main/binary-arm64/Packages
- 7bb5035bbd708cd671fd98a1ee6c54993c151ca05a40fba28e3ca3eb5ac2b548      300 main/binary-arm64/Packages.gz
+ 4aa4988fff5f913c1d3efc8565c97f5ded45139f9b1cf004b848172444d10b4d      382 main/binary-amd64/Packages
+ 81649c8baae071530cbc6ec1e9fd6e092e4225b411fc64542c92b10268125534      300 main/binary-amd64/Packages.gz
+ 8fb73b56fc80bfa2a87bcb9ecd4c6b84badbaa0a3d49664c8b1e3f8524bc0d53      382 main/binary-arm64/Packages
+ 034cf07962cf1bce17b7674b481131597b25ef3ed832102ba7eb5a9125874ba9      300 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSr04waItZsj/fTRCPCNp3LSENapAUCaeBbIgAKCRDCNp3LSENa
-pHkWAQCTi4b+zGb/LubjujYtXBAOOizoKsPQj/KqQxVle/SW1wD/bwU3Gdt0XDpk
-LAt/uHLHfwkdmVkgBT0Hz4Pnk4KULwE=
-=TLY1
+iHUEARYKAB0WIQSr04waItZsj/fTRCPCNp3LSENapAUCaeBdOAAKCRDCNp3LSENa
+pH9cAQDuNsteNkXdx17gjAH8MPekKuVqaiHh5trY0a4Y2yDJugEArbkNJHIoTDX9
+ES674yIt+a9J1O9ZxqVTDN3p63q6QQI=
+=H51+
 -----END PGP SIGNATURE-----

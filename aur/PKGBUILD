@@ -2,7 +2,7 @@
 # Do not edit manually.
 
 pkgname=mezo-cli-bin
-pkgver=0.1.0-alpha.1
+pkgver=0.1.0-alpha.2
 pkgrel=1
 pkgdesc='Mezo protocol CLI'
 arch=('x86_64' 'aarch64')
@@ -11,11 +11,11 @@ license=('MIT')
 provides=('mezo-cli')
 conflicts=('mezo-cli')
 
-source_x86_64=("https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-linux-x64.tar.gz")
-source_aarch64=("https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-linux-arm64.tar.gz")
-sha256sums_x86_64=('32623a4e3775e5421c702af3be9090b850ce333f7fcbfa92f39ac066cc3c57d2')
-sha256sums_aarch64=('d0e153264f534d3615839cd87218cc8de203148f4bda53ea680d13a23fab0ebb')
+source_x86_64=("https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-x64.tar.gz")
+source_aarch64=("https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-arm64.tar.gz")
+sha256sums_x86_64=('9d44138f26e8d8b0acb8d229ede7b28a7867068d9aa1211afccc7b7d8ebeea90')
+sha256sums_aarch64=('b1c22d46143f3e985e871f9caf359e8cab988a70fd016b3a2f618dfbec526492')
 
 package() {
-  install -Dm755 mezo-cli "${pkgdir}/usr/bin/mezo-cli"
+  install -Dm755 mezo "${pkgdir}/usr/bin/mezo"
 }

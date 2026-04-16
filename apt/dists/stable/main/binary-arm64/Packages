@@ -1,12 +1,12 @@
 Package: mezo-cli
-Version: 0.1.0-alpha.1
+Version: 0.1.0-alpha.2
 Section: utils
 Priority: optional
 Architecture: arm64
 Maintainer: Mezo <engineering@mezo.org>
 Description: Mezo protocol CLI
 Homepage: https://github.com/mezo-org/mezo-cli
-Filename: pool/mezo-cli_0.1.0-alpha.1_arm64.deb
-Size: 27988478
-MD5sum: dc980557a19678e1ee19e44d668780e9
-SHA256: 2b603bc67ea39fa84cfa9650e5f6c68fc408ef823b0eae9cf1568467ae5b6d18
+Filename: pool/mezo-cli_0.1.0-alpha.2_arm64.deb
+Size: 27988752
+MD5sum: 29d2d582c9a60aff7489347195f010c7
+SHA256: 42a326d5dda25f2f601d64187e92abcb96ad4f1a8105be8a09603165205199b5

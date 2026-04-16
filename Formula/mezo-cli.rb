@@ -4,36 +4,36 @@
 class MezoCli < Formula
   desc "Mezo protocol CLI"
   homepage "https://github.com/mezo-org/mezo-cli"
-  version "0.1.0-alpha.1"
+  version "0.1.0-alpha.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-macos-arm64.tar.gz"
-      sha256 "64304d4d135d4e3e0ff1ccd4025ab818fe4a1781f0db7e220a2bdfa11450be6a"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-macos-arm64.tar.gz"
+      sha256 "ebcee1a7a7e0e8124c85a04bea69b87b17803b280bba5d7b80b52f5425e399c6"
     end
     on_intel do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-macos-x64.tar.gz"
-      sha256 "430c00dd1e0e5ac01ede43e5b15f4cf2e6764210aa10238121a0969b8a1ca137"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-macos-x64.tar.gz"
+      sha256 "c73d3e195f6264c12c6b88956d199b3b0a3fd3cadd41cbf4889ac77a146bf299"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-linux-arm64.tar.gz"
-      sha256 "d0e153264f534d3615839cd87218cc8de203148f4bda53ea680d13a23fab0ebb"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-arm64.tar.gz"
+      sha256 "b1c22d46143f3e985e871f9caf359e8cab988a70fd016b3a2f618dfbec526492"
     end
     on_intel do
-      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-linux-x64.tar.gz"
-      sha256 "32623a4e3775e5421c702af3be9090b850ce333f7fcbfa92f39ac066cc3c57d2"
+      url "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-linux-x64.tar.gz"
+      sha256 "9d44138f26e8d8b0acb8d229ede7b28a7867068d9aa1211afccc7b7d8ebeea90"
     end
   end
 
   def install
-    bin.install "mezo-cli"
+    bin.install "mezo"
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/mezo-cli --version")
+    assert_match version.to_s, shell_output("#{bin}/mezo --version")
   end
 end

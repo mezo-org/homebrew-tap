@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "Mezo protocol CLI",
   "homepage": "https://github.com/mezo-org/mezo-cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.1/mezo-cli-0.1.0-alpha.1-windows-x64.zip",
-      "hash": "c0ea1a5e57559bd4196277cb3d0f0ab140c2d7f5328a68d0ff96227821482135"
+      "url": "https://github.com/mezo-org/mezo-cli/releases/download/v0.1.0-alpha.2/mezo-cli-0.1.0-alpha.2-windows-x64.zip",
+      "hash": "15ede391277d4506b027d04f44d53482cc3e95a91f1df21534e579717f247f19"
     }
   },
-  "bin": "mezo-cli.exe",
+  "bin": "mezo.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {

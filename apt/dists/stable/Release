@@ -4,15 +4,15 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Wed, 15 Apr 2026 22:03:36 GMT
-Description: mezo-cli 0.1.0-alpha.1
+Date: Thu, 16 Apr 2026 03:07:06 GMT
+Description: mezo-cli 0.1.0-alpha.2
 MD5Sum:
- 4285832e0593789950eef4a5fcfd06bc      390 main/binary-amd64/Packages
- 9f3c959ca4d3844928f7f200ab370aaa      299 main/binary-amd64/Packages.gz
- 09f9b451cf0575be6320af98f3c8c714      390 main/binary-arm64/Packages
- a74c4eb1e193b2f12186a4495072ade4      299 main/binary-arm64/Packages.gz
+ 413bf715f310f424bde772754b42ad70      390 main/binary-amd64/Packages
+ b7c18ef41ea3e12ba8bcac04007d024c      298 main/binary-amd64/Packages.gz
+ 7d3375aec4f7e46ca40921ccbaca4d37      390 main/binary-arm64/Packages
+ a0220e025273b7992fbc115cbdef45ec      301 main/binary-arm64/Packages.gz
 SHA256:
- 21fedb69c89445ba6909b20baa5944ae6d96bf499250c7e029e258d4d7125bcb      390 main/binary-amd64/Packages
- 4cf423b95fa04c65467f8a4769975ef11ee155b68ee7385cdac7248fc3130956      299 main/binary-amd64/Packages.gz
- b26669c9648251a31622feff340f18c32dba61ebc4cc77e459766a26ed864806      390 main/binary-arm64/Packages
- 8f1c64134bab24e412c7fcfc2b0d1574163359b5114d1edb8a9ad48406689ed9      299 main/binary-arm64/Packages.gz
+ 28740a2ee804c649e6fa22fedcb18bb67f70198246394382bd1e993cc3e606c3      390 main/binary-amd64/Packages
+ ba08b92ad87ed4b4003ff44b549152cb53e51d82d08d6ffe74fb14c449b796dc      298 main/binary-amd64/Packages.gz
+ 698ad8cf81ac7c5bebcd333646018531f98a6d51434fe04558a51532eaf45e24      390 main/binary-arm64/Packages
+ 52d99f71f40fd7965dd7ab5b9fbdd7e8fcc226951d3c6ed755d949ed995060ad      301 main/binary-arm64/Packages.gz
